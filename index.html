@@ -74,19 +74,18 @@
                     </span>
                   </div>
 
-
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- Arxiv PDF link -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
+                    <div class="column has-text-centered">
+                      <div class="publication-links">
+                          <!-- Arxiv PDF link -->
+                        <span class="link-block">
+                          <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                          class="external-link button is-normal is-rounded is-dark">
+                          <span class="icon">
+                            <i class="fas fa-file-pdf"></i>
+                          </span>
+                          <span>Paper</span>
+                        </a>
+                      </span>
 
                     <!-- Supplementary PDF link -->
                     <!-- <span class="link-block">
@@ -132,18 +131,20 @@
 <!-- Teaser video-->
 <section class="hero teaser">
   <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
+    <div class="hero-body"
+      style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
+      <video poster="" id="tree" autoplay controls muted loop style="object-fit: cover;">
         <!-- Your video here -->
-        <source src="static/videos/ngp_stage1_ep0300_rgb.mp4"
-        type="video/mp4">
+        <source src="static/videos/ngp_stage1_ep0300_rgb.mp4" type="video/mp4">
       </video>
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+      <h2 class="subtitle has-text-centered" style="margin-top: 10px;">
+        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat
+        pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus.
       </h2>
     </div>
   </div>
 </section>
+
 <!-- End teaser video -->
 
 <!-- Paper abstract -->
