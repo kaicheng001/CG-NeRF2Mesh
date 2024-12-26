@@ -1,0 +1,21 @@
+/* 让视频居中对齐 */
+.video-container {
+  display: flex;
+  justify-content: center;
+  /* 水平居中 */
+  align-items: center;
+  /* 垂直居中 */
+  height: 100%;
+  /* 确保容器高度 */
+}
+
+video {
+  max-width: 100%;
+  /* 防止视频超出容器宽度 */
+  max-height: 100%;
+  /* 防止视频超出容器高度 */
+  width: auto;
+  /* 自动调整宽度 */
+  height: auto;
+  /* 自动调整高度 */
+}
