@@ -1,21 +1,32 @@
-/* 让视频居中对齐 */
+/* 父容器样式，确保视频居中 */
 .video-container {
   display: flex;
   justify-content: center;
   /* 水平居中 */
   align-items: center;
   /* 垂直居中 */
-  height: 100%;
-  /* 确保容器高度 */
+  width: 100%;
+  /* 宽度占满父容器 */
+  height: auto;
+  /* 高度自适应 */
 }
 
-video {
+/* 视频样式，保持正方形比例 */
+.video-container video {
+  width: 300px;
+  /* 固定宽度 */
+  height: 300px;
+  /* 固定高度，形成正方形 */
   max-width: 100%;
-  /* 防止视频超出容器宽度 */
+  /* 防止超出容器宽度 */
   max-height: 100%;
-  /* 防止视频超出容器高度 */
-  width: auto;
-  /* 自动调整宽度 */
-  height: auto;
-  /* 自动调整高度 */
+  /* 防止超出容器高度 */
+  object-fit: cover;
+  /* 保持视频内容适配 */
+}
+
+/* 居中对齐视频标题 */
+.subtitle.has-text-centered {
+  text-align: center;
+  margin-top: 10px;
 }
