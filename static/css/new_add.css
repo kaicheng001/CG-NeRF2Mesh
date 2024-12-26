@@ -1,5 +1,5 @@
 /* 父容器样式，确保视频居中 */
-.video-container {
+.video-container-new {
   display: flex;
   justify-content: center;
   /* 水平居中 */
@@ -12,7 +12,7 @@
 }
 
 /* 视频样式，保持正方形比例 */
-.video-container video {
+.video-container-new video {
   width: 300px;
   /* 固定宽度 */
   height: 300px;
@@ -26,7 +26,8 @@
 }
 
 /* 居中对齐视频标题 */
-.subtitle.has-text-centered {
+.subtitle-new {
   text-align: center;
   margin-top: 10px;
+  /* 控制标题与视频的间距 */
 }
