@@ -1,4 +1,4 @@
-# My Final CG Assignment
+# Computer Graphics Final Project
 This is the project page for my computer graphics final assignment.
 
 ## Acknowledgments
